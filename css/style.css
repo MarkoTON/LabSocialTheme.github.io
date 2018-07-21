@@ -1,53 +1,93 @@
+/* line 7, ../scss/style.scss */
 body {
-  background: #333;
-  color: #fff; }
+  background: #333333;
+  color: white;
+}
 
+/* line 12, ../scss/style.scss */
 .navbar {
   border-bottom: #008ed6 3px solid;
-  opacity: 0.8; }
+  opacity: 0.8;
+}
 
+/* line 17, ../scss/style.scss */
 #home-section {
   background: url("../images/home.jpg") no-repeat center top fixed;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 700px; }
-  #home-section .dark-overlay {
-    background: rgba(0, 0, 0, 0.65);
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    min-height: 700px; }
-  #home-section .home-inner {
-    padding-top: 150px; }
-  #home-section .card-form {
-    opacity: 0.8; }
-  #home-section .fa {
-    color: #008ed6;
-    background: white;
-    padding: 4px;
-    border-radius: 5px;
-    font-size: 30px; }
+  min-height: 700px;
+}
+/* line 23, ../scss/style.scss */
+#home-section .dark-overlay {
+  background: rgba(0, 0, 0, 0.65);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+}
+/* line 31, ../scss/style.scss */
+#home-section .home-inner {
+  padding-top: 150px;
+}
+/* line 34, ../scss/style.scss */
+#home-section .card-form {
+  opacity: 0.8;
+}
+/* line 37, ../scss/style.scss */
+#home-section .fa {
+  color: #008ed6;
+  background: white;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
+}
 
+/* line 46, ../scss/style.scss */
 #explore-section, #share-section {
-  background: white; }
-  #explore-section .fa, #share-section .fa {
-    color: #fff;
-    background: #333;
-    padding: 4px;
-    border-radius: 5px;
-    font-size: 30px; }
+  background: white;
+}
+/* line 48, ../scss/style.scss */
+#explore-section .fa, #share-section .fa {
+  color: #fff;
+  background: #333;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 30px;
+}
 
+/* line 58, ../scss/style.scss */
 #create-section .fa {
   color: #008ed6;
   background: #fff;
   padding: 4px;
   border-radius: 5px;
-  font-size: 30px; }
+  font-size: 30px;
+}
 
+/* line 67, ../scss/style.scss */
 .modal {
-  color: #333; }
+  color: #333;
+}
+
+/* line 71, ../scss/style.scss */
+.backToCV {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 20px;
+}
+/* line 77, ../scss/style.scss */
+.backToCV img {
+  width: 20%;
+  border: 1px solid #78C2AD;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
 
 @media (max-width: 576px) {
+  /* line 88, ../scss/style.scss */
   nav .container {
-    width: 100%; } }
+    width: 100%;
+  }
+}
